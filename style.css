@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*SEMÂNTICO*/
+
+body {
+  background: linear-gradient(rgb(255, 255, 255), rgb(138, 54, 223));
+  font-size: 100%;
+  max-width: 1366px;
+  max-height: 768px;
+  margin: 0 auto;
+}
+
+header {
+  height: 4.5rem;
+  margin: 1.5rem 0;
+}
+
+/*/SEMÂNTICO*/
+/*HOME*/
+.home_section {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10rem;
+  margin-bottom: 4.75rem;
+  border-bottom: 1px solid #000000;
+}
+
+.home_left {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 7rem;
+}
+.home_right {
+  width: 100%;
+}
+.home_image {
+  margin: 2rem;
+}
+.conteudo {
+  display: flex;
+  flex-direction: column;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 3rem;
+}
+
+.cabecalho_logo_titulo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.cabecalho_lista {
+  display: flex;
+  flex-direction: row;
+  gap: 3.125rem;
+}
+
+li a:hover {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #31165b;
+}
+
+.cabecalho_button {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  background-color: #31165b;
+  color: white;
+  padding: 0 2.4rem;
+  border-radius: 1.9rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.cabecalho_button:hover {
+  background-color: #8a58db;
+}
+.home_button_a {
+  display: inline-flex;
+  align-items: center;
+  height: 4rem;
+  background-color: #31165b;
+  color: white;
+  padding: 0 2.4rem;
+  border-radius: 1.9rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.home_button_a:hover {
+  background-color: #c986f8;
+}
+li a {
+  color: #000000;
+  font-weight: bold;
+}
+/*TEXTO*/
+h1 {
+  color: #31165b;
+  font-size: 6.25rem;
+  font-weight: 700;
+}
+p {
+  margin: 2rem 0 4rem 0;
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  line-height: 40px;
+}
+p span {
+  color: #e6beee;
+}
+
+.scroll {
+  display: flex;
+  align-items: center;
+  margin-top: 3.125rem;
+}
+
+.scroll_button {
+  color: #fff;
+  padding-left: 0.5rem;
+}
+
+.scroll_button:hover {
+  color: #31165b;
+}
+/*/TEXTO*/
+/*/HOME*/
