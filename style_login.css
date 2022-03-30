@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Montserrat';
+  box-sizing: border-box;
+}
+
+/*SEMÂNTICO*/
+
+body {
+  display: block;
+  background: linear-gradient(
+    65deg,
+    rgb(213, 158, 245),
+    rgb(145, 51, 182),
+    rgb(42, 5, 79)
+  );
+  font-size: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.login {
+  padding-bottom: 8.5%;
+  padding-top: 8.5%;
+  padding-left: 22%;
+  padding-right: 22%;
+  height: auto;
+}
+
+.itens_login {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2rem;
+  width: 100%;
+}
+
+.right {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.right_titulo {
+  font-size: 2.5rem;
+  color: rgb(63, 15, 107);
+  text-align: center;
+}
+
+.right_email_senha {
+  margin-top: 3rem;
+  margin-bottom: -10px;
+}
+
+.right_email {
+  height: 2rem;
+  background-color: #b691f2;
+  padding-left: 1rem;
+  border-radius: 2rem;
+  margin-bottom: 0.5rem;
+  padding-right: 10rem;
+  border: none;
+}
+
+.right_senha {
+  height: 2rem;
+  background-color: #b691f2;
+  padding-left: 1rem;
+  border-radius: 2rem;
+  padding-right: 10rem;
+  border: none;
+}
+
+.login_user {
+  text-align: center;
+  margin-bottom: 6.25rem;
+}
+
+.login_button {
+  padding: 10px;
+  background-color: #30155a;
+  border-radius: 2rem;
+  color: aliceblue;
+}
+
+.forgotuser {
+  margin-bottom: 0.5rem;
+  font-size: 0.6rem;
+  padding-left: 1rem;
+}
+
+.forgot_button {
+  color: grey;
+}
+
+.register {
+  font-size: 0.6rem;
+}
+
+.register_button {
+  color: grey;
+}
+
+/*IMAGEM LOGIN*/
+
+.left {
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+}
+
+.image_left {
+  width: 100%;
+  height: 100%;
+}
