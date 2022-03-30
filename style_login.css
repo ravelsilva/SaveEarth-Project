@@ -92,6 +92,10 @@ body {
   color: aliceblue;
 }
 
+.login_button:hover {
+  background-color: #8a58db;
+}
+
 .forgotuser {
   margin-bottom: 0.5rem;
   font-size: 0.6rem;
@@ -102,12 +106,22 @@ body {
   color: grey;
 }
 
+.forgot_button:hover {
+  margin-bottom: 3px;
+  border-bottom: 1px solid #30155a;
+}
+
 .register {
   font-size: 0.6rem;
 }
 
 .register_button {
   color: grey;
+}
+
+.register_button:hover {
+  margin-bottom: 3px;
+  border-bottom: 1px solid #30155a;
 }
 
 /*IMAGEM LOGIN*/
